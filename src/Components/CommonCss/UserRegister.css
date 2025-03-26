@@ -1,0 +1,86 @@
+/* UserRegister.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background: url('/register/register.jpg') no-repeat center center/cover;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .register-container {
+    width: 40%;
+    margin: 50px auto;
+    padding: 30px;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .register-title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .register-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    background: rgba(255, 255, 255, 0.8);
+  }
+  
+  .form-input:focus {
+    outline: none;
+    background: rgba(255, 255, 255, 1);
+  }
+  
+  .form-checkbox {
+    margin-right: 10px;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 12px;
+  }
+  
+  .submit-button {
+    width: 100%;
+    padding: 12px;
+    background: #ff9800;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .submit-button:hover {
+    background: #e68900;
+  }
+  .reset-password-container {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center;     /* Centers vertically */
+    height: 50vh;           /* Full viewport height */
+  }
+.field{
+  color: #d4b585 !important	;
+}
+.img{
+  min-height: 700px;
+}
+  
