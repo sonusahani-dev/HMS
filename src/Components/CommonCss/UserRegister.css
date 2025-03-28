@@ -2,7 +2,8 @@
 
 body {
     font-family: Arial, sans-serif;
-    background: url('/register/register.jpg') no-repeat center center/cover;
+    /* background: url('/register/register.jpg') no-repeat center center/cover; */
+    background-color: rgb(67, 80, 80);
     margin: 0;
     padding: 0;
   }
@@ -84,3 +85,22 @@ body {
   min-height: 700px;
 }
   
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+
+@media (max-width: 768px) {
+  .form-grid {
+    grid-template-columns: 1fr; /* Stack fields on smaller screens */
+  }
+}
+.register{
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+.regDiv{
+  background: rgb(40, 73, 98);
+}
